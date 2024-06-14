@@ -1,0 +1,32 @@
+{
+  "name": "festivalmusica",
+  "version": "1.0.0",
+  "description": "Aprendiendo SASS y NPM",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:dist/css",
+    "dev": "gulp dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rquintero22/festival-musica.git"
+  },
+  "keywords": [
+    "NPM",
+    "SASS",
+    "Gulp"
+  ],
+  "author": "Raymond Quintero Aparicio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rquintero22/festival-musica/issues"
+  },
+  "homepage": "https://github.com/rquintero22/festival-musica#readme",
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.77.5"
+  }
+}
