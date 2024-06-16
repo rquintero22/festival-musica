@@ -47,7 +47,7 @@
 
         </div>
 
-        <video autoplay muted loop>
+        <video muted loop autoplay>
 
             <source src="src/video/dj.mp4" type="video/mp4">
 
@@ -63,7 +63,14 @@
 
         <div class="imagen">
 
-            <img src="src/img/imagen_dj.jpg" alt="Sobre festival">
+            <picture>
+
+                <source srcset="dist/img/imagen_dj.avif" type="image/avif" />
+                <source srcset="dist/img/imagen_dj.webp" type="image/webp" />
+
+                <img width="300" height="200" loading="lazy" src="dist/img/imagen_dj.jpg" alt="Sobre festival">
+
+            </picture>
 
         </div>
 
@@ -246,7 +253,7 @@
 
     </footer>
 
-    <script src="build/js/app.js"></script>
+    <script src="dist/js/app.js"></script>
 
 </body>
 

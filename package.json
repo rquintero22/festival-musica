@@ -25,8 +25,13 @@
   },
   "homepage": "https://github.com/rquintero22/festival-musica#readme",
   "devDependencies": {
+    "@types/gulp": "^4.0.17",
+    "glob": "^10.4.1",
     "gulp": "^5.0.0",
+    "gulp-imagemin": "^7.1.0",
     "gulp-sass": "^5.1.0",
-    "sass": "^1.77.5"
+    "gulp-terser": "^2.1.0",
+    "sass": "^1.77.5",
+    "sharp": "^0.33.4"
   }
 }
